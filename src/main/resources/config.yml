@@ -1,0 +1,24 @@
+multikill:
+  # The prefix to use for message output / etc.
+  prefix: "&8[&6Multikill&8]&r&f: "
+  # Whether this plugin should log anything.
+  logging: true
+  # Manages the output behavior of the kill.
+  behavior:
+    # nothing is done with this yet, please do not change
+    behavior: "broadcast"
+    # The message format to output broadcasts in. Put in %player to get the player's name, put in %kill
+    # to get the kill output
+    message_format: "%player has scored a %kill!"
+    # The time in milliseconds it takes for kill chains to be turned off for a player
+    # 1000 milliseconds == 1 second.
+    cooldown_time: 2500
+    # The defined kills, maps a number to a type of kill.
+    kills:
+      2: "Double Kill"
+      3: "Multi Kill"
+      4: "Mega Kill"
+      5: "Ultra Kill"
+      6: "M-M-M-M-MONSTER KILL"
+      7: "Ludicrous Kill"
+      8: "HOLY SHIT"
