@@ -13,7 +13,7 @@ import java.io.IOException;
 
 /**
  * The main JavaPlugin instance used by Bukkit.
- * Contains logic for
+ * Contains logic for initialization of plugin listeners and configuration loading.
  * @author sc4re
  */
 public class Multikill extends JavaPlugin {
